@@ -1,4 +1,36 @@
 baseURL: https://example.org/
 languageCode: en-us
 title: Koalawan
-theme: ["PaperMod"]
+theme: ["hextra"]
+menu:
+  main:
+    - name: Documentation
+      pageRef: /docs
+      weight: 1
+    - name: Blog
+      pageRef: /blog
+      weight: 2
+    - name: About
+      pageRef: /about
+      weight: 3
+    - name: Search
+      weight: 4
+      params:
+        type: search
+    - name: GitHub
+      weight: 5
+      url: "https://github.com/Muhammad-Ikhwan-Fathulloh"
+      params:
+        icon: github
+
+defaultContentLanguage: en
+languages:
+  en:
+    languageName: English
+    weight: 1
+  id:
+    languageName: Indonesian
+    weight: 2
+  ja:
+    languageName: 日本語
+    weight: 3    
