@@ -21,16 +21,4 @@ menu:
       weight: 5
       url: "https://github.com/Muhammad-Ikhwan-Fathulloh"
       params:
-        icon: github
-
-defaultContentLanguage: en
-languages:
-  en:
-    languageName: English
-    weight: 1
-  id:
-    languageName: Indonesian
-    weight: 2
-  ja:
-    languageName: 日本語
-    weight: 3    
+        icon: github  
